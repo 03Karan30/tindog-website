@@ -1,9 +1,9 @@
-#Head-Page{
-    background-image: linear-gradient(to bottom right , #d83261 , 	#d6b143);
-}
-
 body{
     font-family: 'Poppins' , sans-serif;
+}
+
+#Head-Page{
+    background-image: linear-gradient(to bottom right , #d83261 , 	#d6b143);
 }
 
 /* Heading and Paragraph Styling */
