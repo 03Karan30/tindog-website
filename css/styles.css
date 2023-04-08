@@ -41,12 +41,16 @@ p{
     font-size: 2.6rem;
     font-weight: bold;
 }
+.navbar-toggler{
+    color: #fff;
+}
 .navbar{
     padding-bottom: 9%;
 }
 .nav-item{
     margin: 0;
     padding: 0 1.5rem;
+    text-align: right;
 }
 .nav-link{
     font-size: 1.2rem;
