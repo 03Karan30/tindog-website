@@ -1,0 +1,210 @@
+#Head-Page{
+    background-image: linear-gradient(to bottom right , #d83261 , 	#d6b143);
+}
+
+body{
+    font-family: 'Poppins' , sans-serif;
+}
+
+/* Heading and Paragraph Styling */
+h1{
+    color: #fff;
+    font-size: 3.5rem;
+    font-weight: bold;
+    line-height: 5rem;
+    margin-bottom: 2rem;
+}
+h2{
+    font-family: 'Poppins' , sans-serif;
+    font-weight: bold;
+    font-size: 2rem;
+    line-height: 1.5;
+}
+h3{
+    font-family: 'Poppins' ,sans-serif;
+    font-weight: bold;
+}
+p{
+    color: #929292;
+}
+
+.container-fluid{
+    padding: 3% 15% 7%;
+}
+
+
+/**********************************************************/
+/* NavBar Navigation*/
+.navbar-brand{
+    color: #fff;
+    font-family: 'Ubuntu' , sans-serif;
+    font-size: 2.6rem;
+    font-weight: bold;
+}
+.navbar{
+    padding-bottom: 9%;
+}
+.nav-item{
+    margin: 0;
+    padding: 0 1.5rem;
+}
+.nav-link{
+    font-size: 1.2rem;
+    font-family: 'Poppins' , sans-serif;
+    font-weight: bold;
+    color: rgba(255, 255, 255, 0.493);
+}
+
+
+/* Button */
+.btn{
+    margin-right: 1rem;
+}
+
+/* iPhone-image */
+.iphone-img{
+    width: 58%;
+    right: 28%;
+    top: -2rem;
+    transform: rotate(23deg);
+    position: absolute;
+}
+.title-image-div{
+    position: relative;
+}
+
+
+/*********************************************************/
+/* Feature-Page */
+
+#Features-Page{
+    padding: 7% 15%;
+    background-color: #fff;
+    position: relative;
+    /* z-index: 1; */
+}
+.feature-box{
+    text-align: center;
+    padding: 4.5%;
+}
+.feature-box h3{
+    font-size: 1.3rem;
+}
+.icon{
+    color: #e45f4d;
+    margin-bottom: 1.5rem;
+}
+.icon:hover{
+    background: -webkit-linear-gradient(to bottom right, from(#d83261) , to(#d6b143));
+    background-clip: text;
+    -webkit-text-fill-color: rgb(240, 17, 17);
+}
+
+
+/*********************************************************/
+/* Testimonial-Section */
+#Carousel-Section{
+    color: white;
+    text-align: center;
+    background-image: linear-gradient(to top right , #e73b6b , #e6c45f);
+}
+.testimonial-img{
+    border-radius: 100%;
+    width: 12%;
+    margin: 0;
+}
+.carousel-item{
+    padding: 7% 15%;
+}
+
+/*Press-Section-Images*/
+#press{
+    /* background-image: linear-gradient(to right, #e73d6b , #ec7e62); */
+    text-align: center;
+}
+.press-img{
+    width: 15%;
+    margin: 4% 3%;
+}
+
+/********************************************************/
+/* Pricing-Section */
+#Pricing-Section{
+    text-align: center;
+    padding: 100px;
+}
+.price-heading{
+    color: black;
+    margin: 3% 0 0 0 ;
+    font-weight: 800;
+    font-size: 2.5rem;
+}
+.card-body h2{
+    font-size: 2.5rem;
+    font-weight: 800;
+}
+.pricing-column{
+    padding: 3% 2%;
+}
+.button-margin{
+    margin: 40px 0 0 0;
+}
+
+
+/* ***************************************** */
+/* Footer Page */
+#Footer-Page{
+    text-align: center;
+    background-image: linear-gradient(to top left , #d83261 , 	#d6b143c7);
+    padding: 7% 10%;
+}
+#Footer-Page h1{
+    line-height: 5.5rem;
+    font-size: 3rem;
+    padding-bottom: 3%;
+}
+
+/* *********************************************** */
+/* Social Page */
+#Social-Pages{
+    text-align: center;
+    padding: 5% 0 0 0;
+}
+.copyright{
+    padding: 3rem 0 1rem;
+}
+.social-handles{
+    padding: 1rem 2rem;
+    margin-right: 20px;
+}
+
+.github-link{
+    text-decoration: none;
+    text-decoration-line: none;
+    color:#e73b6b;
+}
+.github-link:hover{
+    color: #d6b143;
+}
+
+
+/* ******************************************************* */
+/* Media-Query */
+
+@media (max-width : 1056px){
+
+    #Head-Page .row{
+        text-align: center;
+    }
+    
+    .iphone-img{
+        padding-top: 2rem;
+        position: static;
+        transform: rotate(0deg);
+    }
+
+    #Footer-Page h1{
+        font-size: 2.2rem;
+    }
+    
+}
